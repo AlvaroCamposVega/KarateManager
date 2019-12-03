@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_password">Contraseña</string>
+    <string name="label_login">Entrar</string>
+    <string name="label_signup">Registrarse</string>
+    <string name="label_logout">Cerrar Sesión</string>
+    <string name="error_ema_or_pass">Email o Contraseña Incorrectos</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_surname">Apellidos</string>
+    <string name="hint_city">Ciudad</string>
+    <!-- Países -->
+    <string-array name="regCountries" translatable="false">
+        <item>Estados Unidos</item>
+        <item>España</item>
+        <item>Canadá</item>
+        <item>Suecia</item>
+        <item>Alemania</item>
+        <item>Francia</item>
+    </string-array>
+    <string name="info_signup_cancel">Registro cancelado</string>
+    <string name="info_signup_success">Registro finalizado con éxito</string>
+    <string name="error_empty_fields">Todos los campos deben ser rellenados</string>
+    <string name="error_signup">Ha habido un error con el registro. Inténtelo más tarde</string>
+    <string name="label_eventoStart">"Empieza: "</string>
+    <string name="label_eventoEnd">"Termina: "</string>
+    <string name="label_userevents">EVENTOS</string>
+    <string name="mnu_edit">Editar</string>
+    <string name="mnu_delete">Eliminar</string>
+    <string name="mnu_header">Acciones</string>
+    <string name="mnu_go">Ver</string>
+    <string name="label_event_information">INFORMACIÓN DEL EVENTO</string>
+    <string name="label_wkfevents">Eventos WKF</string>
+    <string name="label_event_new">NUEVO EVENTO</string>
+    <string name="hint_event_name">Nombre Evento</string>
+    <string name="hint_event_city">Localización</string>
+    <string name="hint_event_startDate">Fecha Inicio</string>
+    <string name="hint_event_endDate">Fecha Fin</string>
+    <string name="label_eventoCancel">Cancelar</string>
+    <string name="label_yes">Sí</string>
+    <string name="dialog_title">¿Estás seguro?</string>
+    <string name="dialog_msg">Esta acción no se puede deshacer</string>
+    <string name="error_delete">Ha habido un error al borrar. Inténtelo más tarde</string>
+    <string name="info_event_delete_success">Evento eliminado con éxito</string>
+    <string name="info_event_create">Evento creado con éxito</string>
+    <string name="info_noEvents1">Parece que aún no tienes eventos creados</string>
+    <string name="info_noEvents2">¡Crea un evento haciendo click en el botón de crear!</string>
+    <string name="label_event_strategies">ESTRATEGIAS</string>
+    <string name="info_noStrategies1">Parece que aún no has creado ninguna estrategia para este evento</string>
+    <string name="info_noStrategies2">¡Crea una nueva haciendo click en el botón de crear!</string>
+    <string name="label_strategy_information">INFORMACIÓN DE LA ESTRATEGIA</string>
+    <string name="hint_strategy_target">Objetivo</string>
+    <string name="hint_strategy_desc">Escribe tu estrategia aquí</string>
+    <string name="info_strategy_delete_success">Estrategia eliminada con éxito</string>
+    <string name="info_strategy_create">Estrategia creada con éxito</string>
+    <string name="info_loading">Cargando datos...</string>
+    <string name="label_strategy_new">NUEVA ESTRATEGIA</string>
+</resources>

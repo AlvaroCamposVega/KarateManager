@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.karatemanager">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBar"
+        android:usesCleartextTraffic="true">
+        <!-- STRATEGY ACTIVITY -->
+        <activity
+            android:name=".StrategyActivity"
+            android:parentActivityName=".EventActivity"
+            android:theme="@style/ActionBar"></activity>
+        <!-- EVENT ACTIVITY -->
+        <activity
+            android:name=".EventActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ActionBar" /> <!-- WKFEVENTS ACTIVITY -->
+        <activity
+            android:name=".WKFEventsActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/ActionBar" /> <!-- SIGN UP ACTIVITY -->
+        <activity
+            android:name=".RegisterActivity"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/NoActionBar" /> <!-- MAIN ACTIVITY -->
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/ActionBar" /> <!-- LOGIN ACTIVITY -->
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

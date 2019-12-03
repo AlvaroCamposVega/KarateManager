@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/eventoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:background="@drawable/event_stripped_light_style">
+    <TextView
+        android:id="@+id/eventoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karate 1-Premier League"
+        android:textSize="22dp"
+        android:textColor="#292929"
+        android:fontFamily="@font/lato_black_italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+    <TextView
+        android:id="@+id/eventoCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Madrid, España"
+        android:textSize="18dp"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+    <TextView
+        android:id="@+id/eventoStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Empieza: 10-1-2020"
+        android:textSize="20dp"
+        android:textColor="@color/primaryTextColor"
+        android:fontFamily="@font/raleway_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventoName">
+    </TextView>
+    <TextView
+        android:id="@+id/eventoEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Termina: 12-1-2020"
+        android:textSize="20dp"
+        android:textColor="@color/primaryTextColor"
+        android:fontFamily="@font/raleway_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eventoStartDate">
+    </TextView>
+    <TextView
+        android:id="@+id/eventoEstrategies"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="55dp"
+        android:text="Estrategias: 0"
+        android:textSize="20dp"
+        android:textColor="@color/primaryTextColor"
+        android:fontFamily="@font/raleway_regular"
+        app:layout_constraintStart_toEndOf="@+id/eventoStartDate"
+        app:layout_constraintTop_toBottomOf="@+id/eventoCity">
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

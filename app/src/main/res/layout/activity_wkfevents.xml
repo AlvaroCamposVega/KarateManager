@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    tools:context=".WKFEventsActivity">
+    <TextView
+        android:id="@+id/wkfTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_wkfevents"
+        android:textSize="44dp"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:textColor="#292929"
+        android:fontFamily="@font/lato_black_italic">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wkfList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

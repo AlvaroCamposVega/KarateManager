@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name" translatable="false">KarateManager</string>
+    <string name="hint_email" translatable="false">email@email.com</string>
+    <string name="hint_password">Password</string>
+    <string name="label_login">Login</string>
+    <string name="label_signup">Sign up</string>
+    <string name="label_logout">Logout</string>
+    <string name="error_ema_or_pass">Wrong email or password</string>
+    <string name="action_ok" translatable="false">OK</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_surname">Surname</string>
+    <!-- Countries -->
+    <string-array name="regCountries" translatable="false">
+        <item>United States</item>
+        <item>Spain</item>
+        <item>Canada</item>
+        <item>Sweeden</item>
+        <item>Germany</item>
+        <item>France</item>
+    </string-array>
+    <!-- Strategy Categories -->
+    <string-array name="strategyCategories" translatable="false">
+        <item>Kumite</item>
+        <item>Kata</item>
+    </string-array>
+    <string name="hint_city">City</string>
+    <string name="info_signup_cancel">Signup cancelled</string>
+    <string name="info_signup_success">Sign up successful</string>
+    <string name="error_empty_fields">All fields must be completed</string>
+    <string name="error_signup">Unexpected error on Sing up. Try again later</string>
+    <string name="label_eventoStart">"Starts: "</string>
+    <string name="label_eventoEnd">"Ends: "</string>
+    <string name="label_wkfevents">WKF Events</string>
+    <string name="label_userevents">EVENTS</string>
+    <string name="mnu_edit">Edit</string>
+    <string name="mnu_delete">Delete</string>
+    <string name="mnu_header">Actions</string>
+    <string name="mnu_go">Info</string>
+    <string name="label_event_information">EVENT INFORMATION</string>
+    <string name="label_event_new">NEW EVENT</string>
+    <string name="hint_event_name">Event Name</string>
+    <string name="hint_event_city">Localisation</string>
+    <string name="hint_event_startDate">Start Date</string>
+    <string name="hint_event_endDate">End Date</string>
+    <string name="label_eventoOk" translatable="false">OK</string>
+    <string name="label_eventoCancel">Cancel</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no" translatable="false">No</string>
+    <string name="dialog_title">Are you sure?</string>
+    <string name="dialog_msg">This action cannot be undone.</string>
+    <string name="error_delete">Unexpected error on delete. Try again later</string>
+    <string name="info_event_delete_success">Event successfully deleted</string>
+    <string name="info_event_create">Event succesfully created</string>
+    <string name="info_noEvents1">It seems that you haven\'t created any events yet</string>
+    <string name="info_noEvents2">¡Create a new one by clicking on the create button!</string>
+    <string name="label_event_strategies">STRATEGIES</string>
+    <string name="info_noStrategies1">It seems that you haven\'t created any strategy for this event</string>
+    <string name="info_noStrategies2">¡Create a new one by clicking on the create button!</string>
+    <string name="label_strategy_information">STRATEGY INFORMATION</string>
+    <string name="hint_strategy_target">Target</string>
+    <string name="hint_strategy_desc">Write your strategy here</string>
+    <string name="info_strategy_delete_success">Strategy successfully deleted</string>
+    <string name="info_strategy_create">Strategy successfully created</string>
+    <string name="info_loading">Loading data...</string>
+    <string name="label_strategy_new">NEW STRATEGY</string>
+    <string name="app_ip" translatable="false">192.168.1.22</string>
+</resources>

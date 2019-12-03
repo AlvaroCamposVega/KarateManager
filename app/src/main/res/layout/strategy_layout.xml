@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/strategyLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:background="@drawable/event_stripped_light_style">
+    <TextView
+        android:id="@+id/strategyTarget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rafael Aghayev"
+        android:textSize="22dp"
+        android:textColor="#292929"
+        android:fontFamily="@font/lato_black_italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </TextView>
+    <TextView
+        android:id="@+id/strategyCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.8dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Kumite"
+        android:textSize="22dp"
+        android:textColor="@color/primaryTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+    <TextView
+        android:id="@+id/strategyDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Empezamos suave y poco a poco vam..."
+        android:textSize="20dp"
+        android:textColor="@color/primaryTextColor"
+        android:fontFamily="@font/raleway_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/strategyTarget">
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

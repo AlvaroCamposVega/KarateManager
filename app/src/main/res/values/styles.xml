@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Action Bar Theme -->
+    <style name="ActionBar" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+    </style>
+    <!-- No Action Bar Theme -->
+    <style name="NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+    </style>
+    <!-- Spinner Style -->
+    <style name="spinner">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@drawable/spinner_style</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <!-- Strategy Edit Button Style -->
+    <style name="strategyEditBtn" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="tint">#ffffff</item>
+        <item name="backgroundTint">@color/primaryColor</item>
+    </style>
+    <!-- Strategy Delete Button Style -->
+    <style name="strategyDeleteBtn" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="tint">#ffffff</item>
+        <item name="backgroundTint">@color/redAlternative</item>
+    </style>
+    <!-- Strategy Back Button Style -->
+    <style name="strategyBackBtn" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="tint">#ffffff</item>
+        <item name="backgroundTint">#292929</item>
+    </style>
+
+</resources>
